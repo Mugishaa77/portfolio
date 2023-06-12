@@ -1,5 +1,5 @@
 import React from 'react';
-import Mugisha from './Mugisha Logos/Mugisha.jpg';
+
 import './App.css';
 
 export default function Hero () {
@@ -8,13 +8,13 @@ export default function Hero () {
         
 <nav>
   <div className="logo">
-    <img src={Mugisha} alt="Logo"/>
+   <span>Mugisha</span>
   </div>
   <ul>
-    <li><a href="#">Home</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Services</a></li>
-    <li><a href="#">Contact</a></li>
+    <li><a href="/">Home</a></li>
+    <li><a href="/">About</a></li>
+    <li><a href="/">Services</a></li>
+    <li><a href="/">Contact</a></li>
   </ul>
 </nav>
 
